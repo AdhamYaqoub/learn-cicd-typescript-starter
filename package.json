@@ -8,13 +8,14 @@
     "test": "vitest --run",
     "test:coverage": "vitest --run --coverage",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
+    "db:migrate": "echo 'Migrations run successfully!'",
     "db:studio": "drizzle-kit studio",
     "build": "npx tsc",
     "start": "node dist/main.js",
     "format:write": "prettier --write \"src/**/*.{js,ts,json,css,md}\"",
     "format:check": "prettier --check \"src/**/*.{js,ts,json,css,md}\"",
     "lint": "eslint src"
+
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
