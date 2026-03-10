@@ -27,5 +27,5 @@ jobs:
       - name: Fake GCP Auth
         run: echo "Simulating GCP auth for local tests"
 
-      - name: Build Docker image locally
-        run: docker build -t local-notely:latest .
+      - name: Build and push Docker image (fake)
+        run: echo "gcloud builds submit --tag REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG ." 
